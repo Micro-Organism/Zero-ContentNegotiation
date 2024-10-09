@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: zero-content-negotiation
+    mvc:
+        contentnegotiation:
+            #favor-path-extension: true # header accept
+            favor-parameter: true   # url ?format=xml or format=json
+            media-types:
+                json: application/json

@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: zero-content-negotiation
+    profiles:
+        active: dev
+server:
+    port: 8080
